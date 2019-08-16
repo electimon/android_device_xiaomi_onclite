@@ -423,3 +423,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NotchOverlay
 
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
