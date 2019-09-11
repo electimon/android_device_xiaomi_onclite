@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some ArrowOS stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 IS_PHONE := true
