@@ -142,6 +142,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true \
     vendor.vidc.enc.disable_bframes=1 \
     vidc.enc.dcvs.extra-buff-count=2 \
+    persist.camera.HAL3.enabled=1
     debug.enable.sglscale=1 \
     debug.mdpcomp.logs=0 \
     persist.hwc.enable_vds=1 \
