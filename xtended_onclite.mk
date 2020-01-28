@@ -22,6 +22,9 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 IS_PHONE := true
 
+# Gapps
+WITH_GAPPS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xtended_onclite
 PRODUCT_DEVICE := onclite
