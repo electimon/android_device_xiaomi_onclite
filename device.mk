@@ -414,10 +414,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
