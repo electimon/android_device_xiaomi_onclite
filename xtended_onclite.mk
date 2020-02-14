@@ -12,21 +12,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
-
-# Inherit from custom vendor
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+# Inherit some ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 IS_PHONE := true
 
-# Gapps
-WITH_GAPPS := true
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_onclite
+PRODUCT_NAME := arrow_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
