@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_onclite.mk
+    $(LOCAL_DIR)/arrow_onclite.mk
 
  COMMON_LUNCH_CHOICES := \
-    xtended_onclite-user \
-    xtended_onclite-userdebug \
-    xtended_onclite-eng
+    arrow_onclite-user \
+    arrow_onclite-userdebug \
+    arrow_onclite-eng
