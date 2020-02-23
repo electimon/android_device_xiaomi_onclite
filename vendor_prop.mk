@@ -244,3 +244,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0 \
     ro.debuggable=1
+
+# WiFi calling
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.wfc_avail_ovr=1
