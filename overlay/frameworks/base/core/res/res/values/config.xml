@@ -466,4 +466,7 @@
     <item>com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService</item>
     </string-array>
 
+    <!-- Smart Charing is available for XR7 -->
+    <bool name="config_smartChargingAvailable">true</bool>
+
 </resources>
