@@ -228,5 +228,8 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/onclite/BoardConfigVendor.mk
