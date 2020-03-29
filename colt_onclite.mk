@@ -38,3 +38,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 COLT_BUILD_TYPE := Official
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer=GaganMalvi
