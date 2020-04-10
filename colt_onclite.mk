@@ -27,8 +27,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys"
-
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="onc-user 9 PKQ1.181021.001 V10.3.4.0.PFLMIXM release-keys" \
     PRODUCT_NAME="onc" \
@@ -39,4 +38,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 COLT_BUILD_TYPE := Official
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.colt.maintainer=GaganMalvi
+    ro.colt.maintainer="GaganMalvi"
