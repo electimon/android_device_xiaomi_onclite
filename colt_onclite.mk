@@ -33,9 +33,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="onc" \
     TARGET_DEVICE="onc"
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer=Gagan♥Malvi
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 COLT_BUILD_TYPE := Official
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.colt.maintainer="GaganMalvi"
