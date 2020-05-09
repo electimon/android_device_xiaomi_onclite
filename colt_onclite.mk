@@ -17,7 +17,7 @@ $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 
 # Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 720x1280
+TARGET_BOOT_ANIMATION_RES := 720x1520
 IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
